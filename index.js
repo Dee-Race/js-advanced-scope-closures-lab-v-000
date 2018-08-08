@@ -1,10 +1,12 @@
 
+function produceDrivingRange(rangeDist) {
+  return function()
+}
 
 
-
-function produceTipCalculator(tipCalc) {
-  return function(marketMultiplier) {
-    return marketMultiplier * tipCalc
+function produceTipCalculator(percent) {
+  return function(amount) {
+    return amount * percent
   }
 }
 
