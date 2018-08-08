@@ -2,6 +2,11 @@
 
 
 
+function produceTipCalculator(tipCalc) {
+  return function(marketMultiplier) {
+    return marketMultiplier * tipCalc
+  }
+}
 
 
 function createDriver(){
